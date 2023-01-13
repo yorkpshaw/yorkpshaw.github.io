@@ -1,33 +1,37 @@
 import {
-  FaDribbble,
-  FaFacebookF,
+  // FaDribbble,
+  // FaFacebookF,
   FaLinkedinIn,
-  FaTwitter,
+  FaInstagram,
+  FaGitlab,
+  FaGithub,
+  GoLogoGi
+  // FaTwitter,
 } from "react-icons/fa";
 
 const Social = () => {
   const socialContent = [
     {
       id: 1,
-      link: "https://www.facebook.com/",
-      icon: <FaFacebookF />,
+      link: "https://www.instagram.com/yorkphoenix/",
+      icon: <FaInstagram />,
       iconClass: "text-[#1773EA]",
     },
     {
       id: 2,
-      link: "https://twitter.com/",
-      icon: <FaTwitter />,
+      link: "https://gitlab.com/york.p.shaw",
+      icon: <FaGitlab />,
       iconClass: "text-[#1C9CEA]",
     },
     {
       id: 3,
-      link: "https://dribbble.com/",
-      icon: <FaDribbble />,
+      link: "https://github.com/yorkpshaw",
+      icon: <FaGithub />,
       iconClass: "text-[#e14a84]",
     },
     {
       id: 4,
-      link: "https://www.linkedin.com/",
+      link: "https://www.linkedin.com/in/york-shaw/",
       icon: <FaLinkedinIn />,
       iconClass: "text-[#0072b1]",
     },

@@ -10,16 +10,7 @@ module.exports = [
             href="tel:+452 666 386"
             className="text-gray-lite text-lg dark:text-[#A6A6A6] "
           >
-            +452 666 386
-          </a>
-        </p>
-
-        <p>
-          <a
-            href="tel:+654 764 878"
-            className="text-gray-lite text-lg dark:text-[#A6A6A6] "
-          >
-            +654 764 878
+            +(1) 469 358 4106
           </a>
         </p>
       </>
@@ -34,19 +25,10 @@ module.exports = [
       <>
         <p>
           <a
-            href="mailto:ibthemes21@gmail.com"
+            href="mailto:york.p.shaw@gmail.com"
             className="text-gray-lite text-lg dark:text-[#A6A6A6] "
           >
-            ibthemes@gmail.com
-          </a>
-        </p>
-
-        <p>
-          <a
-            href="mailto:xyz@abc.com"
-            className="text-gray-lite text-lg dark:text-[#A6A6A6] "
-          >
-            mailto:xyz@abc.com
+            york.p.shaw@gmail.com
           </a>
         </p>
       </>

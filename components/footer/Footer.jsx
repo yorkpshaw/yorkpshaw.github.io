@@ -10,7 +10,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            ib-themes
+            York Shaw
           </a>
           .
         </p>

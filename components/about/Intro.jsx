@@ -9,15 +9,10 @@ const Intro = () => {
           <div className="col-span-12 space-y-2.5">
             <div className="lg:mr-16">
               <p className="text-gray-lite  dark:text-color-910 leading-7">
-                I&apos;m Creative Director and UI/UX Designer from Sydney,
-                Australia, working in web development and print media. I enjoy
-                turning complex problems into simple, beautiful and intuitive
-                designs.
+                I'm a full-stack software engineer and this site is under construction!
               </p>
               <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                My aim is to bring across your message and identity in the most
-                creative way. I created web design for many famous brand
-                companies.
+                Check back later!
               </p>
             </div>
           </div>
