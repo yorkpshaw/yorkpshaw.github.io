@@ -17,7 +17,7 @@ const Header = () => {
       <div className="w-full flex justify-between  px-4">
         {/* website logo */}
 
-        <Link href="/">
+        {/* <Link href="/">
           <Image
             className="h-[26px] lg:h-[32px]"
             width={153}
@@ -26,7 +26,7 @@ const Header = () => {
             src="/images/logo/logo.png"
             alt="logo"
           />
-        </Link>
+        </Link> */}
         {/* start mobile menu toggle and mode btn */}
         <div className="flex items-center">
           <DarkMode />
