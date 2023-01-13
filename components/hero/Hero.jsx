@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <Image
         className="rounded-full w-[250px] h-[250px] 2xl:w-[280px] 2xl:h-[280px]"
-        src="/images/about/avatar.jpg"
+        src="/images/about/headshot.jpg"
         width={250}
         height={250}
         priority
