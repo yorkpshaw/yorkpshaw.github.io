@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import Social from "../social/Social";
 import Info from "./Info";
 
