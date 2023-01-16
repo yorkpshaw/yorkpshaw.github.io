@@ -9,7 +9,7 @@ const Intro = () => {
           <div className="col-span-12 space-y-2.5">
             <div className="lg:mr-16">
               <p className="text-gray-lite  dark:text-color-910 leading-7">
-                I'm a full-stack software engineer and this site is under construction!
+                I am a full-stack software engineer and this site is under construction!
               </p>
               <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
                 Check back later!
