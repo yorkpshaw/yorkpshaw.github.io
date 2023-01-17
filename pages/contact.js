@@ -9,7 +9,7 @@ import Seo from "../components/seo/Seo";
 
 const index = () => {
   return (
-    <section className="bg-homeBg dark:bg-homeTwoBg-dark min-h-screen  bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full">
+    <section className="bg-homeBg dark:bg-homeBg-dark min-h-screen  bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full">
       <Seo pageTitle="Contact" />
       {/* End Head for Seo */}
 

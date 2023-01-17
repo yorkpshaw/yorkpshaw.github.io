@@ -19,16 +19,16 @@ module.exports = [
   },
   {
     id: 3,
-    name: "Works",
+    name: "Projects",
     routePath: "/works",
     icon: <FiCodesandbox />,
   },
-  {
-    id: 4,
-    name: "Blogs",
-    routePath: "/blogs",
-    icon: <FaBlogger />,
-  },
+  // {
+  //   id: 4,
+  //   name: "Blogs",
+  //   routePath: "/blogs",
+  //   icon: <FaBlogger />,
+  // },
   {
     id: 5,
     name: "Contact",
