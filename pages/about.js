@@ -3,8 +3,8 @@ import SidebarInfo from "../components/about/SidebarInfo";
 import HeaderNavigation from "../components/header/HeaderNavigation";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-import AboutMe from "../components/aboutme/AboutMe";
 import Seo from "../components/seo/Seo";
+import York from "../components/york/York";
 
 const index = () => {
   return (
@@ -28,9 +28,9 @@ const index = () => {
               <div className="container mb-8   px-4 sm:px-5 md:px-10 lg:px-[60px]">
                 <div className="py-12">
                   <h2 className="after-effect  after:left-60 mt-12  lg:mt-0">
-                    About Me...
+                    Who Am I...
                   </h2>
-                  <AboutMe />
+                  <York />
                 </div>
               </div>
               {/* End Portfolio */}
