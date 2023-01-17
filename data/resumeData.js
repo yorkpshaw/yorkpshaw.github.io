@@ -68,34 +68,34 @@ module.exports = [
       },
     ],
   },
-  {
-    id: 3,
-    title: "Awards",
-    icon: <FaAward />,
-    items: [
-      {
-        id: 1,
-        date: "2015-2017",
-        title: "  Graphic Designer",
-        place: "Web Graphy, Los Angeles, CA",
-        bg: "#FCF4FF",
-      },
+  // {
+  //   id: 3,
+  //   title: "Awards",
+  //   icon: <FaAward />,
+  //   items: [
+  //     {
+  //       id: 1,
+  //       date: "2015-2017",
+  //       title: "  Graphic Designer",
+  //       place: "Web Graphy, Los Angeles, CA",
+  //       bg: "#FCF4FF",
+  //     },
 
-      {
-        id: 2,
-        date: "2014 - 2015",
-        title: "Jr. Web Developer",
-        place: "Creative Gigs.",
-        bg: "#FCF9F2",
-      },
+  //     {
+  //       id: 2,
+  //       date: "2014 - 2015",
+  //       title: "Jr. Web Developer",
+  //       place: "Creative Gigs.",
+  //       bg: "#FCF9F2",
+  //     },
 
-      {
-        id: 3,
-        date: "2015-2017",
-        title: "Best Freelancer",
-        place: "Fiver & Upwork Level 2 & Top Rated",
-        bg: "#FCF4FF",
-      },
-    ],
-  },
+  //     {
+  //       id: 3,
+  //       date: "2015-2017",
+  //       title: "Best Freelancer",
+  //       place: "Fiver & Upwork Level 2 & Top Rated",
+  //       bg: "#FCF4FF",
+  //     },
+  //   ],
+  // },
 ];

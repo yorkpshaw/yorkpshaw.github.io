@@ -3,7 +3,7 @@ import SidebarInfo from "../components/about/SidebarInfo";
 import HeaderNavigation from "../components/header/HeaderNavigation";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-import BlogTwo from "../components/blog/BlogTwo";
+import AboutMe from "../components/aboutme/AboutMe";
 import Seo from "../components/seo/Seo";
 
 const index = () => {
@@ -27,10 +27,10 @@ const index = () => {
             <div data-aos="fade">
               <div className="container mb-8   px-4 sm:px-5 md:px-10 lg:px-[60px]">
                 <div className="py-12">
-                  <h2 className="after-effect  after:left-48 mt-12  lg:mt-0">
-                    Blogs
+                  <h2 className="after-effect  after:left-60 mt-12  lg:mt-0">
+                    About Me...
                   </h2>
-                  <BlogTwo />
+                  <AboutMe />
                 </div>
               </div>
               {/* End Portfolio */}
