@@ -10,7 +10,7 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="Bostami - Tailwind CSS  Personal Portfolio React Nextjs Template"
+          content="York Shaw Software Engineer"
         />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
@@ -25,8 +25,9 @@ export default function Document() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="msapplication-TileColor" content="#da532c"></meta>
+np        <meta name="msapplication-TileColor" content="#da532c"></meta>
         <meta name="theme-color" content="#ffffff"></meta>
+
       </Head>
       <body>
         <Main />

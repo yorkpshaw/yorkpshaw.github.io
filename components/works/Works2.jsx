@@ -58,49 +58,6 @@ const Works2 = () => {
 
   return (
     <>
-      {/* Portfilo fillter tab start */}
-      <ul className="mt-[40px] flex w-full justify-start md:justify-end flex-wrap font-medium pb-12">
-        <li
-          className={`${
-            test === "All" ? "text-[#FA5252]" : "fillter-btn "
-          } mr-4 md:mx-4`}
-          onClick={() => handleSearch("All")}
-        >
-          All
-        </li>
-        <li
-          className={`${
-            test === "Video" ? "text-[#FA5252]" : "fillter-btn"
-          } mr-4 md:mx-4`}
-          onClick={() => handleSearch("Video")}
-        >
-          Video
-        </li>
-        <li
-          className={`${
-            test === "Web Design" ? "text-[#FA5252]" : "fillter-btn"
-          } mr-4 md:mx-4`}
-          onClick={() => handleSearch("Web Design")}
-        >
-          Web Design
-        </li>
-        <li
-          className={`${
-            test === "Logo" ? "text-[#FA5252]" : "fillter-btn ml-0"
-          } mr-4 md:mx-4`}
-          onClick={() => handleSearch("Logo")}
-        >
-          Logo
-        </li>
-        <li
-          className={`${test === "UI/UX" ? "text-[#FA5252]" : "fillter-btn"}  `}
-          onClick={() => handleSearch("UI/UX")}
-        >
-          Graphic Design
-        </li>
-      </ul>
-      {/* End portfolio filter tab */}
-
       {/* Start portfolio items */}
       <Masonry
         breakpointCols={breakpointColumnsObj}
@@ -118,7 +75,7 @@ const Works2 = () => {
           >
             <div className="overflow-hidden rounded-lg">
               <Image
-                className="w-full    cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto "
+                className="w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110 rounded-lg h-auto "
                 src={item.imgSmall}
                 width={300}
                 height={300}
@@ -137,6 +94,8 @@ const Works2 = () => {
       </Masonry>
       {/* End portfolio items */}
 
+
+
       {/* Start Modal for portfolio items */}
       <Modal
         isOpen={isOpen}
@@ -151,32 +110,13 @@ const Works2 = () => {
               className="text-7xl cursor-pointer  absolute right-2 -top-12 md:-right-10 md:-top-6 z-50  text-white transition transform hover:rotate-45 duration-300 ease-in-out "
             />
             <h2 className="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-              {singleData.tag} Project
+              {singleData.tag} {singleData.title}
             </h2>
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 my-6">
+            <div className="grid grid-cols-1 my-6">
               <div className="space-y-2">
-                <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
-                  <FiFilePlus className="sm:text-lg hidden sm:block mr-2  md:text-xl" />
-                  Project :&nbsp; <span className="font-medium "> Website</span>
-                </p>
-                <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
-                  <FiCode className="text-lg mr-2 hidden sm:block " />
-                  Langages :&nbsp;
-                  <span className="font-medium ">{singleData?.langages}</span>
-                </p>
-              </div>
-
-              <div className="space-y-2">
-                <p className="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px]  sm:text-lg ">
-                  <FiUser className="text-lg mr-2 hidden sm:block" />
-                  Client :&nbsp;
-                  <span className="font-medium ">{singleData?.client}</span>
-                </p>
-
-                <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
+              <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
                   <FiExternalLink className="text-lg mr-2 hidden sm:block" />
-                  Preview :&nbsp;
+                  Project Repository :&nbsp;
                   <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060] ">
                     <a
                       href={singleData?.link}
@@ -187,15 +127,19 @@ const Works2 = () => {
                     </a>
                   </span>
                 </p>
+                <p className="dark:text-white items-center text-[15px] lg:grid-cols-12 sm:text-lg ">
+                  {/* <FiCode className="text-lg mr-2 hidden sm:block " /> */}
+                  Skills :&nbsp;
+                  <span className="font-medium ">{singleData?.langages}</span>
+                </p>
               </div>
             </div>
 
             <p className="dark:text-white  text-2line font-normal text-[15px] sm:text-sm  ">
               {singleData?.description}
             </p>
-
             <Image
-              className="w-full md:h-[450px]  h-auto object-cover rounded-xl mt-6"
+              className="w-full h-auto object-cover rounded-xl mt-6"
               src={singleData?.img}
               alt="blog details image"
               width={620}
