@@ -9,7 +9,7 @@ import York from "../components/york/York";
 const index = () => {
   return (
     <section className="bg-homeBg dark:bg-homeBg-dark min-h-screen  bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full">
-      <Seo pageTitle="Blog" />
+      <Seo pageTitle="About Me" />
       {/* End Head for Seo */}
 
       <Header />
