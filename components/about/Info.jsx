@@ -30,7 +30,7 @@ const Info = () => {
       icon: <FaMapMarkerAlt />,
       iconColor: "text-[#6AB5B9] ",
       name: "Location",
-      meta: <>Plano, Texas</>,
+      meta: <>Dallas, TX</>,
     },
     {
       id: 3,
@@ -50,13 +50,13 @@ const Info = () => {
         </>
       ),
     },
-    {
-      id: 4,
-      icon: <FaCalendarAlt />,
-      iconColor: "text-[#C17CEB]",
-      name: "Birthday",
-      meta: <>August 12, 1987</>,
-    },
+    // {
+    //   id: 4,
+    //   icon: <FaCalendarAlt />,
+    //   iconColor: "text-[#C17CEB]",
+    //   name: "Birthday",
+    //   meta: <>August 12, 1987</>,
+    // },
   ];
 
   return (
