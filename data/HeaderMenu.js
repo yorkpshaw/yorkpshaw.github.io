@@ -29,10 +29,10 @@ module.exports = [
     routePath: "/works",
     icon: <FiCodesandbox />,
   },
-  {
-    id: 5,
-    name: "Contact",
-    routePath: "/contact",
-    icon: <RiContactsBookLine />,
-  },
+  // {
+  //   id: 5,
+  //   name: "Contact",
+  //   routePath: "/contact",
+  //   icon: <RiContactsBookLine />,
+  // },
 ];
