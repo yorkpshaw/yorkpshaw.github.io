@@ -14,6 +14,10 @@ const Intro = () => {
               <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
                 I am passionate about learning, problem-solving, and innovating. My aim is to connect with people by bringing technology to life.
               </p>
+              <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
+                Thank you for stopping by! Please have a look around.
+              </p>
+
             </div>
           </div>
         </div>
