@@ -11,12 +11,12 @@ import {
 
 const Social = () => {
   const socialContent = [
-    {
-      id: 1,
-      link: "https://www.instagram.com/yorkphoenix/",
-      icon: <FaInstagram />,
-      iconClass: "text-[#1773EA]",
-    },
+    // {
+    //   id: 1,
+    //   link: "https://www.instagram.com/yorkphoenix/",
+    //   icon: <FaInstagram />,
+    //   iconClass: "text-[#1773EA]",
+    // },
     {
       id: 2,
       link: "https://gitlab.com/york.p.shaw",
