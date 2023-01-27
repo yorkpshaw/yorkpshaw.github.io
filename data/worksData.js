@@ -50,7 +50,7 @@ module.exports = [
     bg: "#E9FAFF",
     client: "Envato",
     langages: "Python, JavaScript, PostgreSQL, FastAPI, React, Redux, RESTful APIs, JSON Web Token, Agile, Wireframes",
-    link: "https://igneous-rocks.gitlab.io/hot-stocks/",
+    link: "https://gitlab.com/igneous-rocks/hot-stocks",
     linkText: "Hot-Stocks",
     description:
       "Hot Stocks - revolutionizing stocks to make them, like, totally cool. Modern, social-media-app-inspired stock portfolio solution designed for evaluating live stock and related news data, managing a portfolio, and saving data of interest. Features FastAPI, React Redux, PostgreSQL, and data interactions with RESTful APIs. https://igneous-rocks.gitlab.io/hot-stocks/",
